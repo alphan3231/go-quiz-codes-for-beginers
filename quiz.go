@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//yazdırma
+	//write
 	fmt.Println("Welcome to my quiz game.")
 
 	fmt.Printf("Enter your name: ")
