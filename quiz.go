@@ -34,7 +34,6 @@ func main() {
 	var answer string
 	var answer2 string
 	fmt.Scan(&answer, &answer2)
-	true || false -> true
 	//answer 1
 	if answer+" "+answer2 == "RTX 3090" {
 		fmt.Println("Correct!")
@@ -59,6 +58,6 @@ func main() {
 	}
 
 	fmt.Printf("you scored %v out of %v.\n", score, numQuestions)
-	percent := (float64(score) / float64(numQuestions) * 100
+	percent := (float64(score) / float64(numQuestions)) * 100
 	fmt.Printf("you scored: %v%%. ", percent)
 }
